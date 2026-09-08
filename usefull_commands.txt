@@ -1,0 +1,7 @@
+uv pip install --editable solutions/*
+jpamb -v analyse my_test
+jpamb -v analyse treesitter-sol
+python solutions/syntactic/src/syntactic_treesitter_solve.py --debug
+jpamb analyse --report report.sexp treesitter-sol
+
+### Remember to update pyproject.toml when adding a new python analyzer ###
