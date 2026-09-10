@@ -6,3 +6,4 @@ jpamb analyse --report report.sexp treesitter-sol
 jpamb validate report.sexp
 
 ### Remember to update pyproject.toml when adding a new python analyzer ###
+
